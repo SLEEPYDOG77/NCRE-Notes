@@ -1,5 +1,7 @@
 # Requests库
 
+[Requests库文档](https://requests.readthedocs.io/en/master/)
+
 ## 简介
 
 
@@ -190,8 +192,6 @@ if __name__ = "__main__":
 
 
 
-
-
 ### request()方法
 
 > 构造一个请求，支撑以下各方法的基础方法。
@@ -221,8 +221,6 @@ requests.get(url, params=None, **kwargs)
 #params: url中的额外参数，字典或字节流格式（可选）
 #**kwargs: 12个控制访问的参数
 ```
-
-
 
 
 
@@ -261,7 +259,7 @@ requests.post(url, data=None, json=None, **kwargs)
 
 
 
-1. 向URL POSt一个字典，自动编码为表单（form）
+1. **向URL POSt一个字典，自动编码为表单（form）**
 
 ```python
 import requests
@@ -277,7 +275,7 @@ print(r.text)
 #}
 ```
 
-2. 向URL POST一个字符串，自动编码为 data
+2. **向URL POST一个字符串，自动编码为 data**
 
 ```python
 import requests
