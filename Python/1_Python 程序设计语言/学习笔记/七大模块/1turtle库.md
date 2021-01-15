@@ -1,5 +1,7 @@
 # 模块1：turtle库
 
+[turtle库文档](https://docs.python.org/3/library/turtle.html)
+
 ### turtle库简介
 
 > turtle（海龟）库是turtle绘图体系的Python实现。

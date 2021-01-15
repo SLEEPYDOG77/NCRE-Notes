@@ -1,5 +1,7 @@
 # 模块2：time库
 
+[time库文档](https://docs.python.org/3/library/time.html)
+
 ## time库概述
 
 time库是Python中处理时间的**标准库**。
