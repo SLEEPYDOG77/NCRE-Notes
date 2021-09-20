@@ -66,7 +66,8 @@ URL是通过 HTTP 协议存取资源的 Internet 路径，一个URL对应一个�
 
 > PUT和PATCH的区别：
 >
-> 
+> - 采用PATCH：仅向URL提交局部更新请求，节省网络带宽
+> - 采用PUT：将全部字段一并提交到URL
 
 
 
